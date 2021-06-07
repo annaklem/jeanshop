@@ -1,8 +1,5 @@
 
 
-/* let imgHeader = document.getElementsByClassName("img_header");
-console.log(imgHeader ); */
-
 
 let imgHeader = $('.img_header');
 console.log(imgHeader);
@@ -23,18 +20,10 @@ window.addEventListener("scroll", function(){
 
     
 
-    //image appear 
-  /* if(scrollValue > 0.0001){
-    imgHeader.css("opacity" , 1);
-    imgHeader.css("transform", "none"); 
-  }*/
-
   if(scrollValue > 0.4){
       yesNo.css("opacity" , 1);
       yesNo.css("transform", "none")
   }
-
-
 
 }); 
 
